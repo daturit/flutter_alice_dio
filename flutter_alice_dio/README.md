@@ -19,27 +19,6 @@ Overlay bubble version of Alice: https://github.com/jhomlala/alice
 ✔️ HTTP calls search
 ✔️ Bubble overlay entry
 
-## Install
-
-1. Add this to your **pubspec.yaml** file:
-
-```yaml
-dependencies:
-  flutter_alice_dio: ^1.0.0
-```
-
-2. Install it
-
-```bash
-$ flutter pub get
-```
-
-3. Import it
-
-```dart
-import 'package:flutter_alice_dio/flutter_alice_dio.dart';
-```
-
 ## Usage
 ### Alice configuration
 1. Create Alice instance:
@@ -49,7 +28,11 @@ import 'package:flutter_alice_dio/flutter_alice_dio.dart';
 final navigatorKey = GlobalKey<NavigatorState>();
 
 // Create Alice with the navigator key
-final alice = Alice(navigatorKey: navigatorKey);
+final alice = Alice(
+      navigatorKey: navigatorKey,
+      showInspectorOnShake: true,
+      showNotification: true,
+      darkTheme: true);
 ```
 
 2. Add navigator key to your application:
@@ -68,3 +51,21 @@ Add interceptor to your Dio instance:
 final dio = Dio();
 dio.interceptors.add(alice.getDioInterceptor());
 ```
+
+### Show inspector by shake gesture
+```dart
+ShakeDetectWrap(
+enabled: true,
+onShake: () {
+alice.showInspector();
+}
+child: Container(
+  child: Text('Your app content here'),
+));
+
+```
+
+## Commemoration
+
+This package was originally authored by
+[Anh Tuan](https://github.com/daturit).

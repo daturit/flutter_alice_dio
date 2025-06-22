@@ -11,7 +11,7 @@ class Alice {
 
   /// Should inspector be opened on device shake (works only with physical
   /// with sensors)
-  final bool showInspectorOnShake;
+  // final bool showInspectorOnShake;
 
   /// Should inspector use dark theme
   final bool darkTheme;
@@ -26,14 +26,14 @@ class Alice {
   Alice(
       {GlobalKey<NavigatorState>? navigatorKey,
         this.showNotification = true,
-        this.showInspectorOnShake = false,
+        // this.showInspectorOnShake = false,
         this.darkTheme = false,
         this.notificationIcon = "@mipmap/ic_launcher"}) {
     _navigatorKey = navigatorKey ?? GlobalKey<NavigatorState>();
     _aliceCore = AliceCore(
       _navigatorKey,
       showNotification,
-      showInspectorOnShake,
+      // showInspectorOnShake,
       darkTheme,
       notificationIcon,
     );

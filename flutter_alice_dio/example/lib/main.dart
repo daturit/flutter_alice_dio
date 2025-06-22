@@ -2,12 +2,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_alice_dio/flutter_alice_dio.dart';
 import 'package:dio/dio.dart';
-import 'package:overlay_support/overlay_support.dart';
+import 'package:shake_detector/shake_detector.dart';
 
 // Navigator key
 final navigatorKey = GlobalKey<NavigatorState>();
-
-final alice = Alice(navigatorKey: navigatorKey);
+final alice = Alice(navigatorKey: navigatorKey, darkTheme: true);
 final dio = Dio(BaseOptions(followRedirects: false));
 
 void main() {
@@ -21,13 +20,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+    return const MyHomePage(title: 'Flutter Demo Home Page');
   }
 }
 
@@ -43,7 +36,11 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return OverlaySupport(
+    return ShakeDetectWrap(
+      enabled: true,
+      onShake: () {
+        alice.showInspector;
+      },
       child: MaterialApp(
         navigatorKey: navigatorKey,
         home: Scaffold(

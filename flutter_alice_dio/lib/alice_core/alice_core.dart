@@ -16,7 +16,7 @@ class AliceCore {
 
   /// Should inspector be opened on device shake (works only with physical
   /// with sensors)
-  final bool showInspectorOnShake;
+  // final bool showInspectorOnShake;
 
   /// Should inspector use dark theme
   final bool darkTheme;
@@ -41,14 +41,14 @@ class AliceCore {
   factory AliceCore(
     _navigatorKey,
     showNotification,
-    showInspectorOnShake,
+    // showInspectorOnShake,
     darkTheme,
     notificationIcon,
   ) {
     _singleton ??= AliceCore._(
       _navigatorKey,
       showNotification,
-      showInspectorOnShake,
+      // showInspectorOnShake,
       darkTheme,
       notificationIcon,
     );
@@ -59,7 +59,7 @@ class AliceCore {
   AliceCore._(
     this._navigatorKey,
     this.showNotification,
-    this.showInspectorOnShake,
+    // this.showInspectorOnShake,
     this.darkTheme,
     this.notificationIcon,
   ) {
@@ -72,7 +72,6 @@ class AliceCore {
   /// Dispose subjects and subscriptions
   void dispose() {
     callsSubject.close();
-    //_shakeDetector?.stopListening();
     _callsSubscription?.cancel();
   }
 
