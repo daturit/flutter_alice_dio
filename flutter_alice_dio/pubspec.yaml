@@ -1,6 +1,6 @@
 name: flutter_alice_dio
 description: "A lightweight version of Alice for Dio, designed for simple logging in Flutter."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/daturit/flutter_alice_dio
 
 environment:

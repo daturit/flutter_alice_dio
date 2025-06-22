@@ -79,7 +79,7 @@ class AliceCore {
   Brightness get brightness => _brightness;
 
   void _onCallsChanged() async {
-    if (callsSubject.value.length > 0) {
+    if (callsSubject.value.isNotEmpty) {
       _notificationMessage = _getNotificationMessage();
       if (_notificationMessage != _notificationMessageShown &&
           !_notificationProcessing) {

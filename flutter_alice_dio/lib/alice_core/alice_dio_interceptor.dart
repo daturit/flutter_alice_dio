@@ -27,7 +27,7 @@ class AliceDioInterceptor extends InterceptorsWrapper {
     Uri uri = options.uri;
     call.method = options.method;
     var path = options.uri.path;
-    if (path.length == 0) {
+    if (path.isEmpty) {
       path = "/";
     }
     call.endpoint = path;
