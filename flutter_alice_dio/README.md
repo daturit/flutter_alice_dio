@@ -64,6 +64,36 @@ child: Container(
 ));
 
 ```
+## Demo Log:
+
+<table>
+  <tr>
+    <td>
+		<img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_1.png">
+    </td>
+    <td>
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_2.png">
+    </td>
+    <td>
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_3.png">
+    </td>
+    <td>
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_4.png">
+    </td>
+  </tr>
+  <tr>
+    <td>
+	<img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_5.png">
+    </td>
+    <td>
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_6.png">
+    </td>
+    <td>
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_7.png">
+    </td>
+  </tr>
+
+</table>
 
 ## Commemoration
 
