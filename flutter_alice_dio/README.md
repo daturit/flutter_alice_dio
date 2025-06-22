@@ -30,8 +30,6 @@ final navigatorKey = GlobalKey<NavigatorState>();
 // Create Alice with the navigator key
 final alice = Alice(
       navigatorKey: navigatorKey,
-      showInspectorOnShake: true,
-      showNotification: true,
       darkTheme: true);
 ```
 
@@ -69,27 +67,27 @@ child: Container(
 <table>
   <tr>
     <td>
-		<img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_1.png">
+		<img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_1.png?raw=true">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_2.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_2.png?raw=true">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_3.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_3.png?raw=true">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_4.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_4.png?raw=true">
     </td>
   </tr>
   <tr>
     <td>
-	<img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_5.png">
+	<img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_5.png?raw=true">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_6.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_6.png?raw=true">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_7.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_7.png?raw=true">
     </td>
   </tr>
 
