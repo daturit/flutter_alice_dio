@@ -158,7 +158,7 @@ class AliceStatsScreen extends StatelessWidget {
 
   int _getMinRequestTime() {
     int minRequestTime = 10000000;
-    if (calls.length == 0) {
+    if (calls.isEmpty) {
       minRequestTime = 0;
     } else {
       calls.forEach((AliceHttpCall call) {

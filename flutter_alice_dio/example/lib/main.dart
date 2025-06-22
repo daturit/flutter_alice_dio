@@ -36,14 +36,14 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return ShakeDetectWrap(
-      enabled: true,
-      onShake: () {
-        alice.showInspector;
-      },
-      child: MaterialApp(
-        navigatorKey: navigatorKey,
-        home: Scaffold(
+    return MaterialApp(
+      navigatorKey: navigatorKey,
+      home: ShakeDetectWrap(
+        enabled: true,
+        onShake: () {
+          alice.showInspector();
+        },
+        child: Scaffold(
           appBar: AppBar(title: const Text('Alice Inspector')),
           body: Padding(
             padding: EdgeInsets.all(16),

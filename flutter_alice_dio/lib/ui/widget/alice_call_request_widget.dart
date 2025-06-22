@@ -52,7 +52,7 @@ class _AliceCallRequestWidget
 
     var headers = _request.headers;
     var headersContent = "Headers are empty";
-    if (headers.length > 0) {
+    if (headers.isNotEmpty) {
       headersContent = "";
     }
     rows.add(getListRow("Headers: ", headersContent));
@@ -63,7 +63,7 @@ class _AliceCallRequestWidget
     print("qr: ${_request.queryParameters}");
     var queryParameters = _request.queryParameters;
     var queryParametersContent = "Query parameters are empty";
-    if (queryParameters.length > 0) {
+    if (queryParameters.isNotEmpty) {
       queryParametersContent = "";
     }
     rows.add(getListRow("Query Parameters: ", queryParametersContent));

@@ -77,7 +77,7 @@ class _AliceCallResponseWidgetState
     List<Widget> rows = [];
     var headers = _call.response!.headers;
     var headersContent = "Headers are empty";
-    if (headers != null && headers.length > 0) {
+    if (headers != null && headers.isNotEmpty) {
       headersContent = "";
     }
     rows.add(getListRow("Headers: ", headersContent));
