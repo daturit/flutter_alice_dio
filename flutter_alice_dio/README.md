@@ -69,27 +69,27 @@ child: Container(
 <table>
   <tr>
     <td>
-		<img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_1.png">
+		<img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_1.png">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_2.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_2.png">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_3.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_3.png">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_4.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_4.png">
     </td>
   </tr>
   <tr>
     <td>
-	<img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_5.png">
+	<img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_5.png">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_6.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_6.png">
     </td>
     <td>
-       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/tree/main/flutter_alice_dio/media/dio_7.png">
+       <img width="250px" src="https://github.com/daturit/flutter_alice_dio/blob/main/flutter_alice_dio/media/dio_7.png">
     </td>
   </tr>
 
